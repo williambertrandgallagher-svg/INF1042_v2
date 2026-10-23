@@ -10,7 +10,7 @@ nom_complet = "Marie Tremblay"
 age_etudiant = 17
 note_1 = 88
 
-print(nom_complet, age_etudiant, note_1)
+print("Bonjour", nom_complet, "vous avez", age_etudiant,"ans et votre note est", note_1)
 
 # Noms invalides — ils restent en commentaires pour que ce fichier fonctionne :
 # 1er_nom = "Erreur"      # ne peut pas commencer par un chiffre

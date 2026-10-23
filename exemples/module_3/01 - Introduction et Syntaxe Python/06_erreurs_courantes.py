@@ -6,15 +6,15 @@ Décommentez-les UNE À LA FOIS pour observer le message de Python.
 """
 
 print("Le programme fonctionne.")
-
+variable_inconnue = 1420
 # 1) SyntaxError : guillemet fermant manquant
-# print("Bonjour)
+print("Bonjour")
 
 # 2) IndentationError : bloc mal indenté
-# if True:
-# print("Mauvaise indentation")
+if True:
+    print("Mauvaise indentation")
 
 # 3) NameError : variable inexistante
-# print(variable_inconnue)
+print(variable_inconnue)
 
 print("Fin du programme.")
